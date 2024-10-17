@@ -16,8 +16,10 @@ Antes de comenzar, asegúrate de tener instalados los siguientes elementos:
 2. Crear una base de datos con el nombre db_springbot
 
 #Ejecución del proyecto
-1. Ejecutar desde la ruta base ./gradlew clean build //Con este comando se genera el archivo jar en la carpeta ./build/libs
+1. Ejecutar desde la ruta base ./gradlew clean build //Con este comando se genera el archivo jar en la carpeta ./build/libs/
 2. ./gradlew bootRun
 
 ##Otra opción de ejecución es ejecutar en la ruta donde se aloja el .jar del artefacto el siguiente comando:
- java -jar .\crud-0.0.1-SNAPSHOT.jar
+ java -jar .\build\libs\crud-0.0.1-SNAPSHOT.jar
+
+ ##en la siguiente ruta se encuentra el archivo .jmx de pruebas, se ejecuta con Jmeter ./build/libs/
